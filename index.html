@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav {
+            background-color: black;
+            color: white;
+            text-align: start;
+            padding: 10px;
+            padding-left: 40px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+        }
+
+        main {
+            padding: 20px;
+            background-color: rgb(158, 123, 241);
+        }
+
+        footer {
+            background-color: rgb(36, 16, 70);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .socials {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .socials img {
+            width: 30px;
+        }
+
+        .footer-bottom {
+            background-color: #444;
+            padding: 5px;
+        }
+        main h1 {
+            text-align: center;
+            color: white;
+            font-size: 50px;
+        }
+        form {
+            background-color: rgb(158, 123, 241);
+            padding: 20px;
+            border-radius: 10px;
+            width: 40%;
+            margin: 0 auto;
+        }
+        input {
+            width: 98%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        input[type="checkbox"] {
+            width: 5%;
+        }
+        .buttonss {
+            text-align: center;
+            background-color: rgb(158, 123, 241);
+            box-shadow: 0px 0px 11px 1px #000000;
+        }
+        input[type="button"] {
+            padding: 10px 20px;
+            background-color: rgb(226, 194, 11);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: medium;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Gamer.com</div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Please complete your details</h1>
+        <form action="">
+            <input type="text" placeholder="Your email address">
+            <input type="text" placeholder="Create a username">
+            <input type="password" placeholder="Create a password">
+            <input type="text" placeholder="First name">
+            <input type="text" placeholder="Last name">
+
+            <input type="checkbox" id="logedin">
+            <label for="logedin">Keep me logged in when using the computer</label>
+            <input type="checkbox" id="newsletter">
+            <label for="newsletter">Email me a weekly newsletter</label>
+            <input type="checkbox" id="emaildaily">
+            <label for="emaildaily">Email me a daily newsletter</label>
+
+            <div class="buttonss">
+                <input type="button" value="Complete Sign-up">
+                <p>By registering  you confirm that you agree with our terms and conditions</p>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>About Us</h3>
+            <p>We are a gaming website that provides the latest news, reviews, and updates on the latest games.</p>
+            <ul class="socials">
+                <li><a href="#"><img src="facebook.png" alt="Facebook"></a></li>
+                <li><a href="#"><img src="twitter.png" alt="Twitter"></a></li>
+                <li><a href="#"><img src="instagram.png" alt="Instagram"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            &copy; Gamer.com | Designed by Sachin
+        </div>
+</body>
+
+</html>
